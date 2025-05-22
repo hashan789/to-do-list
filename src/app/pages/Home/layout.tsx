@@ -13,7 +13,7 @@ export default function Homelayout({
             <NavLink href={"/pages/Home/about"}>About</NavLink>
             <NavLink href={"/pages/Home/store"}>Store</NavLink>
         </NavBar>
-        <div className="">
+        <div className="container mx-auto mt-5">
             {children}
         </div>
     </div>
